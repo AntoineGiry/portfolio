@@ -36,9 +36,9 @@ body {
     color: #1f2933; }
   .navigation__item a:hover,
   .navigation__item a:focus {
-    color: #14919b; }
+    color: #54d1db; }
   .navigation__item a:active {
-    color: #044e54; }
+    color: #14919b; }
 
 .header__text-box .heading-primary {
   font-size: 7rem;
@@ -59,9 +59,9 @@ body {
     color: #1f2933; }
   .header__project p a:hover,
   .header__project p a:focus {
-    color: #14919b; }
+    color: #54d1db; }
   .header__project p a:active {
-    color: #044e54; }
+    color: #14919b; }
 
 .navigation {
   display: flex;
@@ -89,7 +89,7 @@ body {
     .header__text-box .heading-primary {
       margin-bottom: 2.2rem; }
     .header__text-box p span {
-      color: #14919b; }
+      color: #54d1db; }
   .header__picture {
     grid-area: img;
     display: flex;

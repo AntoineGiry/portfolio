@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="192" height="192"></rect>
+        <text id="ANTOINE" font-family="Spectral-Medium, Spectral" font-size="45" font-weight="400" letter-spacing="-5.47500038" fill="#1F2933">
+            <tspan x="1.57799039" y="85">ANTOIN</tspan>
+            <tspan x="159.122988" y="85" letter-spacing="-5.35597849">E</tspan>
+        </text>
+        <text id="GIRY" font-family="Spectral-Light, Spectral" font-size="100" font-weight="300" line-spacing="30" letter-spacing="-16.3285713" fill="#1F2933">
+            <tspan x="-4" y="234">GIR</tspan>
+            <tspan x="121.214286" y="234" letter-spacing="-18.1428566">Y</tspan>
+        </text>
+    </g>
+</svg>
