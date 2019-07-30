@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/AntoineGiry/portfolio2k19.git"
+    "url": "git+ssh://git@github.com/AntoineGiry/portfolio.git"
   },
   "author": "Antoine GIRY",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AntoineGiry/portfolio2k19/issues"
+    "url": "https://github.com/AntoineGiry/portfolio/issues"
   },
-  "homepage": "https://github.com/AntoineGiry/portfolio2k19#readme",
+  "homepage": "https://github.com/AntoineGiry/portfolio#readme",
   "devDependencies": {
     "node-sass": "^4.12.0"
   },
