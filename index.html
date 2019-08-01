@@ -17,16 +17,20 @@
 </html>
 
 <body>
-  <nav class="navigation">
-    <div class="navigation__logo" id="logotype">Antoinegiry.</div>
-    <div class="navigation__nav">
-      <ul class="navigation__list">
-        <li class="navigation__item"><a href="#">Home</a></li>
-        <li class="navigation__item"><a href="#">Resume</a></li>
-        <li class="navigation__item"><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div class="wrapper">
+    <nav class="navigation">
+      <div class="navigation__logo" id="logotype">Antoinegiry.</div>
+      <div class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item link_style-1">
+            <a href="#">Home</a>
+          </li>
+          <li class="navigation__item link_style-1"><a href="#">Resume</a></li>
+          <li class="navigation__item link_style-1"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   <header class="header">
     <div class="header__text-box">
       <h1 class="heading-primary">
@@ -34,7 +38,7 @@
       </h1>
       <p>
         Currently on interniship at
-        <span
+        <span class="link_style-2"
           ><a href="http://buddybuddy.io" target="_blank">BuddyBuddy</a></span
         >
       </p>
@@ -42,12 +46,99 @@
     <div class="header__picture">
       <img src="img/sideimage.png" alt="Hi i'm Antoine Giry" class="img" />
     </div>
-    <div class="header__project">
-      <p><a href="#">Voir mes projets</a></p>
-      <div class="header__project--line"></div>
+    <div class="header__link-project">
+      <p class="link_style-1"><a href="#project">Voir mes projets</a></p>
+      <div class="header__link-project--line"></div>
     </div>
   </header>
   <section>
-    hello world
+    <article class="project" id="project">
+      <div class="project__text-content">
+        <h2 class="project__text-content__title">Discover</h2>
+        <p class="project__text-content__description">
+          Discover est un side project qui à vu le jour suite au constat suivant
+          : comment trouver la sortie idéale quand TripAdvisor, Foursquare ou
+          Instagram nous proposent une multitude de choix aussi variés
+          qu’impersonnels ?
+        </p>
+        <div class="project__text-content__see-more">
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="project__picture">
+        <img
+          src="img/sideimg_discover.png"
+          alt="Discover, ios mobile app"
+          class="img"
+        />
+      </div>
+    </article>
+  </section>
+  <section>
+    <article class="project" id="project">
+      <div class="project__text-content">
+        <h2 class="project__text-content__title">Cap Sud</h2>
+        <p class="project__text-content__description">
+          CapSud, un des leader du photovoltaïque en France a fait appel à
+          l’agence BuddyBuddy (dont j’ai eu la chance d’effectuer mon stage)
+          afin de donner un coup de fraicheur à son site web.
+        </p>
+        <div class="project__text-content__see-more">
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="project__picture">
+        <img
+          src="img/sideimg_capsud.png"
+          alt="Discover, ios mobile app"
+          class="img"
+        />
+      </div>
+    </article>
+  </section>
+  <section>
+    <article class="project" id="project">
+      <div class="project__text-content">
+        <h2 class="project__text-content__title">OneMovie</h2>
+        <p class="project__text-content__description">
+          Netflix, Prime, Popcorn Time… Des centaines de miliers de choix qui
+          s’offrent à vous. Nous passons dans notre vie plus de 2400 heures à
+          chercher un film. OneMovie vous permet de trouver le film qui
+          correspond à votre envie, en un clic.
+        </p>
+        <div class="project__text-content__see-more">
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="project__picture">
+        <img
+          src="img/sideimg_onemovie.png"
+          alt="Discover, ios mobile app"
+          class="img"
+        />
+      </div>
+    </article>
+  </section>
+  <section>
+    <article class="project" id="project">
+      <div class="project__text-content">
+        <h2 class="project__text-content__title">NodePay</h2>
+        <p class="project__text-content__description">
+          L’application NodePay est le résultat de 3 jours de compétition
+          scolaire dont le but était de créer un moyen de gérer, acheter,
+          revendre et utiliser de la cryptomonnaie.
+        </p>
+        <div class="project__text-content__see-more">
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="project__picture">
+        <img
+          src="img/sideimg_nodepay.png"
+          alt="Discover, ios mobile app"
+          class="img"
+        />
+      </div>
+    </article>
   </section>
 </body>

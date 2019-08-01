@@ -13,7 +13,37 @@ html {
   font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
   scroll-behavior: smooth;
 }
-body {
-  margin: 0 auto;
-  max-width: 120rem;
+
+.link_style-1 {
+  a:link,
+  a:visited {
+    color: $color-grey-dark;
+  }
+  a:hover,
+  a:focus {
+    color: $color-primary;
+  }
+  a:active {
+    color: $color-primary-dark;
+  }
+}
+.link_style-2 {
+  a:link,
+  a:visited {
+    color: $color-primary;
+  }
+  a:hover,
+  a:focus {
+    color: $color-primary-dark;
+  }
+  a:active {
+    color: $color-grey-dark;
+  }
+}
+
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  transition-duration: 0.2s;
 }
