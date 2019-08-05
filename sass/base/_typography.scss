@@ -14,59 +14,9 @@ h2 {
   font-weight: 700;
 }
 
-.navigation {
-  &__logo {
-    font-size: 24px;
-    font-family: "spectral", serif;
-    letter-spacing: -2px;
-    font-weight: 300;
-  }
-
-  &__item {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-}
-
-.header {
-  &__text-box {
-    .heading-primary {
-      font-size: 7rem;
-      font-weight: 500;
-      line-height: 9.5rem;
-      letter-spacing: 0.2rem;
-    }
-    p {
-      font-size: 2.2rem;
-      font-weight: 300;
-      letter-spacing: 0.04rem;
-    }
-  }
-
-  &__project {
-    p {
-      font-size: 1.8rem;
-      font-weight: 400;
-    }
-  }
-}
-
-.project__text-content {
-  &__see-more {
-    font-weight: 600;
-    font-size: 1.6rem;
-
-    a:link,
-    a:visited {
-      color: $color-grey-dark;
-    }
-    a:hover,
-    a:focus {
-      color: $color-primary;
-    }
-    a:active {
-      color: $color-primary-dark;
-    }
-  }
+h1 {
+  font-size: 7rem;
+  font-weight: 500;
+  line-height: 9rem;
+  letter-spacing: 0.2rem;
 }

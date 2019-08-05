@@ -1,0 +1,78 @@
+.header {
+  padding: 2rem;
+  margin: 0 auto;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 63% 5% 32%;
+  grid-template-rows: 80% 20%;
+  grid-template-areas:
+    "txt . img"
+    "more more more";
+
+  &__text-box {
+    grid-area: txt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .heading-primary {
+      margin-bottom: 4.2rem;
+    }
+
+    p {
+      font-size: 2.2rem;
+      font-weight: 300;
+      letter-spacing: 0.04rem;
+    }
+    &__project {
+      p {
+        font-size: 1.8rem;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__picture {
+    grid-area: img;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__link-project {
+    grid-area: more;
+    justify-self: center;
+    align-self: end;
+    padding: 2rem;
+
+    & p {
+      padding: 2rem;
+    }
+    &--line {
+      width: 1px;
+      height: 40px;
+      border-left: 2px solid $color-grey-dark;
+      margin: 0 auto;
+      border-radius: 5px;
+    }
+  }
+}
+
+@include respond(phone) {
+  .header {
+    grid-template-areas:
+      "txt txt txt"
+      "more more more";
+    &__text-box {
+      .heading-primary {
+        font-size: 5rem;
+        font-weight: 500;
+        line-height: 6.4rem;
+        letter-spacing: 0.2rem;
+      }
+    }
+    &__picture {
+      display: none;
+    }
+  }
+}

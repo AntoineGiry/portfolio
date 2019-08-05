@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="18px" viewBox="0 0 31 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon/arrow/right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop-HD-Copy" transform="translate(-181.000000, -2223.000000)" stroke="#1F2933">
+            <g id="Projet---OneMovie" transform="translate(0.000000, 1688.000000)">
+                <g id="See-more" transform="translate(80.000000, 535.000000)">
+                    <g id="icon/arrow/right" transform="translate(102.000000, 1.000000)">
+                        <g id="Arrow">
+                            <path d="M0.5,8 L29,8" id="Path" stroke-width="2"></path>
+                            <polyline id="Path-2" stroke-width="2" points="21 0 29 8 21 16"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

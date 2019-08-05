@@ -1,0 +1,32 @@
+.wrapper {
+  background-color: #fff;
+  position: sticky;
+  top: 0px;
+}
+.navigation {
+  background-color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: 0.2s;
+  overflow: hidden;
+  &__logo {
+    font-size: 24px;
+    font-family: "spectral", serif;
+    letter-spacing: -2px;
+    font-weight: 300;
+  }
+
+  &__item {
+    display: inline;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  &__item:not(:first-child) {
+    padding-left: 4rem;
+  }
+}
