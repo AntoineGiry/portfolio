@@ -1,7 +1,7 @@
 .header {
   padding: 2rem;
   margin: 0 auto;
-  height: 90vh;
+  min-height: 85vh;
   display: grid;
   grid-template-columns: 63% 5% 32%;
   grid-template-rows: 80% 20%;
@@ -50,7 +50,7 @@
     }
     &--line {
       width: 1px;
-      height: 40px;
+      height: 4rem;
       border-left: 2px solid $color-grey-dark;
       margin: 0 auto;
       border-radius: 5px;
@@ -64,10 +64,12 @@
       "txt txt txt"
       "more more more";
     &__text-box {
+      text-align: center;
+
       .heading-primary {
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight: 500;
-        line-height: 6.4rem;
+        line-height: 5.5rem;
         letter-spacing: 0.2rem;
       }
     }
