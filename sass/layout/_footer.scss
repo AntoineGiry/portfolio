@@ -1,15 +1,15 @@
 .footer {
-  padding: 5rem 0;
+  padding: 4rem 0;
   border-top: 1px #cbd2d9 solid;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100%;
+  grid-template-rows: auto;
   grid-template-areas:
     ". txt txt ."
     ". icn icn .";
   justify-items: center;
-  grid-gap: 3rem;
+  grid-gap: 2rem;
 
   &__title {
     grid-area: txt;
