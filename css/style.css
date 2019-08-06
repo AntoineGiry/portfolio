@@ -217,7 +217,7 @@ section:nth-of-type(odd) {
       .header__text-box .heading-primary {
         font-size: 4rem;
         font-weight: 500;
-        line-height: 5.5rem;
+        line-height: 5rem;
         letter-spacing: 0.2rem; }
     .header__picture {
       display: none; } }
