@@ -157,6 +157,8 @@ section:nth-of-type(odd) {
   padding-bottom: 1rem;
   transition: 0.5s;
   overflow: hidden; }
+  .navigation__nav {
+    display: none; }
   .navigation__logo {
     font-size: 24px;
     font-family: "spectral", serif;
