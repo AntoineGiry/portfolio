@@ -1,8 +1,9 @@
 .wrapper {
-  background-color: $color-white;
   position: sticky;
   top: 0px;
   padding: 0 2rem;
+  background-color: $color-white;
+  z-index: 1;
 }
 .navigation {
   display: flex;
