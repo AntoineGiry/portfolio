@@ -1,3 +1,12 @@
+.duration-slow {
+  color: red; }
+
+.duration-medium {
+  animation-duration: 2s; }
+
+.duration-fast {
+  animation-duration: 1s; }
+
 *,
 *::after,
 *::before {
@@ -214,7 +223,8 @@ section:nth-of-type(odd) {
     flex-direction: column;
     justify-content: center; }
     .header__text-box .heading-primary {
-      margin-bottom: 4.2rem; }
+      margin-bottom: 4.2rem;
+      animation-duration: 5s; }
     .header__text-box p {
       font-size: 2.2rem;
       font-weight: 300;
@@ -227,6 +237,8 @@ section:nth-of-type(odd) {
     display: flex;
     align-items: center;
     justify-content: flex-end; }
+    .header__picture img {
+      border-radius: 4px; }
   .header__link-project {
     grid-area: more;
     justify-self: center;
