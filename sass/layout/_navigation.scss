@@ -1,11 +1,10 @@
 .wrapper {
-  background-color: #fff;
+  background-color: $color-white;
   position: sticky;
   top: 0px;
   padding: 0 2rem;
 }
 .navigation {
-  background-color: $color-white;
   display: flex;
   justify-content: space-between;
   align-items: baseline;

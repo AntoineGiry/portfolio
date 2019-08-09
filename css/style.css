@@ -157,7 +157,6 @@ section:nth-of-type(odd) {
   padding: 0 2rem; }
 
 .navigation {
-  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
