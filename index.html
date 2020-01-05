@@ -21,7 +21,7 @@
   </head>
 </html>
 
-<body class="animated fadeIn slow"">
+<body class="animated fadeIn slow" >
   <div class="wrapper animated fadeIn">
     <nav class="navigation">
       <div class="navigation__logo" id="logotype">
@@ -38,23 +38,23 @@
       </div>
     </nav>
   </div>
-  <header class="header">
+  <header class="header animated fadeInDown slow">
     <div class="header__text-box">
-      <h1 class="heading-primary animated fadeIn slow">
+      <h1 class="heading-primary animated fadeInUp ">
         Designer d'interfaces et d'expériences utilisateur
       </h1>
-      <p class="animated fadeInLeft">
-        Actuellement en stage chez
+      <p class="animated fadeInUp delay-1s">
+        UX/UI Designer chez
         <span class="link_style-2"
-          ><a href="http://buddybuddy.io" target="_blank">BuddyBuddy</a></span
+          ><a href="http://buddybuddy.io" target="_blank">Squadeasy</a></span
         >
       </p>
     </div>
-    <div class="header__picture animated fadeInRight ">
-      <img src="img/sideimage.jpg" alt="Hi i'm Antoine Giry" class="img" />
+    <div class="header__picture animated fadeInRight delay-2s">
+      <img id="imageSide" src="img/sideimage.jpg" alt="Hi i'm Antoine Giry" class="img" />
     </div>
 
-    <div class="header__link-project  animated fadeInUp">
+    <div class="header__link-project  animated fadeInUp  delay-2s">
       <p class="link_style-1 "><a href="#project">Voir mes projets</a></p>
       <div class="header__link-project--line"></div>
     </div>
@@ -88,7 +88,7 @@
     </article>
   </section>
   <section>
-    <article class="project  id="project">
+    <article class="project fadeInUp slow">
       <div class="project__text-content">
         <h2 class="project__text-content__title">Discover</h2>
         <p class="project__text-content__description">
@@ -123,8 +123,8 @@
         <p class="project__text-content__description">
           CapSud, un des leader du photovoltaïque en France a fait appel à
           l’agence BuddyBuddy (où j’ai eu la chance d’effectuer mon stage) afin
-          de donner un brin de fraîcheur à son identité visuelle. Au programme,
-          refonte site web, création d'une appli commercial pour saisir les
+          de donner un brin de fraîcheur à son identité visuelle. Au programme :
+          refonte du site web et création d'une appli commercial pour saisir les
           devis.
         </p>
         <div class="project__text-content__see-more">
@@ -150,13 +150,13 @@
         <h2 class="project__text-content__title">OneMovie</h2>
         <p class="project__text-content__description">
           Netflix, Prime, Popcorn Time… Ce sont des milliers de choix qui
-          s’offrent à vous. Aucune étude ne l'a prouvée, mais je suis sûr que
-          nous passons plus de 2400 heures de notre vie à chercher quel film
+          s’offrent à vous. Aucune étude ne le démontre mais 
+          nous passons plus de 2 000 heures de notre vie à chercher quel film
           regarder. OneMovie est un side project en cours de création qui vous
           permettra de trouver LE film qui correspond à votre envie, en un clic.
         </p>
         <div class="project__text-content__see-more">
-          <p><a target="_blank">Disponible prochainement</a></p>
+          <p><a target="_blank">Disponible prochainement ...</a></p>
         </div>
       </div>
       <div class="project__picture">
@@ -198,4 +198,5 @@
       </div>
     </div>
   </footer>
+  <script type="text/javascript" src="js/imagemove.js"></script>
 </body>

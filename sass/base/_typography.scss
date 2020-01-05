@@ -4,7 +4,7 @@ body {
   /*font-size: 16px;*/
   line-height: 1.6;
   letter-spacing: 0.2px;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: $color-grey-dark;
 }
 
@@ -23,9 +23,13 @@ h2 {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 4.4rem;
   font-weight: 500;
-  line-height: 9rem;
+  line-height: 6rem;
   letter-spacing: 0.2rem;
   color: $color-grey-dark;
+}
+
+.link_style-2, .link_style-1{
+ font-weight: 500;
 }

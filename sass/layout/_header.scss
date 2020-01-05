@@ -1,9 +1,10 @@
 .header {
+  position: relative;
   padding: 2rem;
   margin: 0 auto;
-  min-height: 85vh;
+  min-height: 90vh;
   display: grid;
-  grid-template-columns: 63% 5% 32%;
+  grid-template-columns: 50% 5% 35%;
   grid-template-rows: 80% 20%;
   grid-template-areas:
     "txt . img"
@@ -16,20 +17,12 @@
     justify-content: center;
 
     .heading-primary {
-      margin-bottom: 4.2rem;
-      animation-duration: 5s;
+      margin-bottom: 1.2rem;
     }
 
     p {
-      font-size: 2.2rem;
-      font-weight: 300;
-      letter-spacing: 0.04rem;
-    }
-    &__project {
-      p {
-        font-size: 1.8rem;
-        font-weight: 400;
-      }
+      font-size: 1.6rem;
+      font-weight: 400;
     }
   }
 
@@ -51,12 +44,14 @@
     padding: 2rem;
 
     & p {
+      font-size: 1.4rem;
       padding: 2rem;
     }
+    
     &--line {
       width: 1px;
       height: 4rem;
-      border-left: 2px solid $color-grey-dark;
+      border-left: 1px solid $color-grey-dark;
       margin: 0 auto;
       border-radius: 5px;
     }
